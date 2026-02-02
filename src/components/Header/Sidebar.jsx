@@ -11,8 +11,14 @@ export default function Sidebar({ open, closeFn }) {
       <div className="flex justify-between ">
         <div className="flex flex-col">
           <span>Logo</span>
-          <a href="null">Home</a>
-          <a href="null">Products</a>
+          <ul>
+            <li>
+              <a href="null">Home</a>
+            </li>
+            <li>
+              <a href="null">Products</a>
+            </li>
+          </ul>
         </div>
         <RxCross1 onClick={() => closeFn(false)} className="text-2xl" />
       </div>

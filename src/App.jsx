@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Header from "./components/Header/Header";
-import ProductCard from "./components/productCard";
+import ProductCard from "./components/main/productCard";
 
 const url = "https://fakestoreapi.com/products";
 
